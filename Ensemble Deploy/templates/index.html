@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <body style="background-image:url(https://img.freepik.com/premium-vector/airplane-paths-plane-dashed-tracing-line-from-point-vector-set_53562-9102.jpg?w=740); background-repeat: no-repeat;-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;">
+<style >
+
+input[type=text], select {
+  width: 95%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #e9e2e2;
+  border-radius: 15px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 40px;
+    
+}
+
+input[type=submit] {
+  width: 20%;
+  display: center;
+  background-color: #a4aeb4;
+  color: rgb(222, 229, 230);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  right: 60px;
+  position: absolute;
+  left: 500px;
+}
+
+
+input[type=submit]:hover {
+  background-color: #fcfcfa;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+</style>
+
+
+<head >
+    <title>Language Prediction Model</title>
+</head>
+<form action="predict" method="POST" enctype="multipart/form-data" style="background-color:#3a3d3f;">
+    <fieldset>
+        <h1 style="color: whitesmoke ;position: relative;" >Language Prediction</h1><br>
+        <h3 style="color: whitesmoke;">Enter Your First Name</h3>
+        <input type="text" id="fname" name="fname" required>
+        <br><br><br>
+        <br>
+        <h3 style="color: whitesmoke;"> Enter Your Surname</h3>
+        <input type="text" id="fname" name="sname" required>
+        <br><br>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Predict">
+        <br><br><br><br>
+    </fieldset>
+</form>
+
+<br>
+</body>
+</html>
